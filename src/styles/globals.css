@@ -11,6 +11,18 @@
 
     --primary-text-color: #34251f;
     --secondary-text-color: #ffffff;
+
+    --font-size-heading-1: 4.875rem;
+    --font-size-sub-heading-1: 1.375rem;
+
+    --font-size-hading-2: 4.25rem;
+    --font-size-sub-heading-2: 1.25rem;
+
+    --font-size-heading-3: 3.25rem;
+    --font-size-sub-heading-3: 1.25rem;
+
+    --font-size-heading-4: 3rem;
+    --font-size-sub-heading-4: 1.25rem;
 }
 
 @media (prefers-color-scheme: dark) {
