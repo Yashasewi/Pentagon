@@ -1,6 +1,5 @@
-
 function Collection() {
-    return <div>Collection</div>;
+  return <div>Collection</div>;
 }
 
 export default Collection;
