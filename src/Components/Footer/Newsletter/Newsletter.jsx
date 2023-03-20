@@ -1,6 +1,5 @@
-
 function Newsletter() {
-    return <div>Newsletter</div>;
+  return <div>Newsletter</div>;
 }
 
 export default Newsletter;
