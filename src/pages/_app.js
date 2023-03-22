@@ -18,6 +18,7 @@ export default function App({ Component, pageProps }) {
                 <meta name="description" content="Pentagon" />
                 <link rel="icon" href="/Pentagon.png?ao_noptimize=1" />
             </Head>
+            
             <Component {...pageProps} />
         </>
     );
