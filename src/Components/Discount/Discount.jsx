@@ -1,6 +1,5 @@
-
 function Discount() {
-    return <div>Discount</div>;
+  return <div>Discount</div>;
 }
 
 export default Discount;
