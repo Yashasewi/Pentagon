@@ -1,0 +1,33 @@
+.collection {
+  /* display: flex;
+  flex-direction: column; */
+  height: 30rem;
+  width: 100%;
+  color: var(--primary-text-color);
+  align-items: center;
+}
+.collection_heading {
+  width: 100%;
+  text-align: center;
+  height: 4rem;
+}
+
+.cardDiv {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  padding: 4rem;
+  height: 25rem;
+  width: 100%;
+  align-items: center;
+  position: absolute;
+}
+.card {
+  height: 16rem;
+  width: 16rem;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  border: 1px solid black;
+}
