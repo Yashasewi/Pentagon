@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ananya from "/public/pentagon.png";
+import card from "/public/Images/collectionCard.svg";
 function Collection() {
   return (
     <div className="collection">
@@ -12,25 +12,15 @@ function Collection() {
       </div>
       <div className="cardDiv">
         <div className="card">
-          <Image src={ananya} alt="sdfgh" width={20} height={25} />
+          <Image src={card} alt="sdfgh" width={300} height={220} />
           <p className="cardButton">T-shirt</p>
         </div>
         <div className="card">
-          <Image
-            src="/public/pentagon.png"
-            alt="sdfgh"
-            width={20}
-            height={25}
-          />
+          <Image src={card} alt="sdfgh" width={300} height={220} />
           <p className="cardButton">Sweater</p>
         </div>
         <div className="card">
-          <Image
-            src="/public/pentagon.png"
-            alt="sdfgh"
-            width={20}
-            height={25}
-          />
+          <Image src={card} alt="sdfgh" width={300} height={220} />
           <p className="cardButton">Long Sleeve</p>
         </div>
       </div>

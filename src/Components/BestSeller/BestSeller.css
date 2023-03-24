@@ -1,0 +1,19 @@
+.bestseller {
+  height: 45rem;
+  background-color: var(--primary-text-color);
+  padding: 5rem;
+}
+.bestSellerHeading {
+  color: white;
+  font-size: 1.5rem;
+  height: 30rem;
+  width: 20rem;
+  margin-top: 6rem;
+}
+button {
+  background-color: var(--primary-text-color);
+  color: white;
+  padding: 1rem;
+  width: 16rem;
+  margin-top: 2rem;
+}
