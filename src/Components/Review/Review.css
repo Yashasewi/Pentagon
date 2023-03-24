@@ -1,0 +1,24 @@
+.cardDiv {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  margin-top: 4rem;
+  row-gap: 2rem;
+  padding: 4rem;
+  height: 25rem;
+  width: 100%;
+  align-items: center;
+  position: absolute;
+}
+.card {
+  height: 16rem;
+  width: 24rem;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+  border: 1px solid black;
+}
+p {
+  padding: 2rem;
+}

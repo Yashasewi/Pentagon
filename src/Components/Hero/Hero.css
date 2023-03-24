@@ -1,114 +1,114 @@
 .hero {
-    background-color: var(--hero-background);
-    height: 100vh;
-    max-height: 700px;
-    color: var(--primary-text-color);
-    align-items: center;
-    padding: 0.3rem 9rem;
+  background-color: var(--hero-background);
+  height: 100vh;
+  /* max-height: 700px; */
+  color: var(--primary-text-color);
+  align-items: center;
+  padding: 0.3rem 9rem;
 }
 
 .logo {
-    font-size: 1.4rem;
-    font-weight: var(--font-weight-bold);
+  font-size: 1.4rem;
+  font-weight: var(--font-weight-bold);
 }
 .nav_section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0rem;
 }
 
 .nav_buttons {
-    user-select: none;
-    color: var(--primary-text-color);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
+  user-select: none;
+  color: var(--primary-text-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
 }
 
 .nav_buttons > a {
-    text-decoration: none;
-    color: var(--primary-text-color);
-    /* font-size: 1.5rem; */
-    font-weight: var(--font-weight-semibold);
-    transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  color: var(--primary-text-color);
+  /* font-size: 1.5rem; */
+  font-weight: var(--font-weight-semibold);
+  transition: all 0.3s ease-in-out;
 }
 
 .nav_buttons > a:hover {
-    /* color: var(--secondary-text-color); */
-    opacity: 0.5;
+  /* color: var(--secondary-text-color); */
+  opacity: 0.5;
 }
 
 .buttons {
-    display: flex;
-    justify-content: space-between;
-    gap: 1.7rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.7rem;
 }
 
 .btn {
-    padding: 4px 1.1rem;
-    border: 2.3px solid var(--primary-text-color);
-    background-color: transparent;
-    /* font-size: 1rem; */
-    font-weight: var(--font-weight-medium);
-    color: var(--primary-text-color);
-    transition: all 0.3s ease-in-out;
-    margin-right: 2.4rem;
+  padding: 4px 1.1rem;
+  border: 2.3px solid var(--primary-text-color);
+  background-color: transparent;
+  /* font-size: 1rem; */
+  font-weight: var(--font-weight-medium);
+  color: var(--primary-text-color);
+  transition: all 0.3s ease-in-out;
+  margin-right: 2.4rem;
 }
 
 .hero_content {
-    display: flex;
+  display: flex;
 
-    /* justify-content: space-between; */
-    align-items: center;
-    width: 100%;
-    column-gap: 5rem;
+  /* justify-content: space-between; */
+  align-items: center;
+  width: 100%;
+  column-gap: 5rem;
 }
 
 .hero_text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-    align-self: center;
-    padding: 2rem 1rem 1rem 0rem;
-    /* margin: auto; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  align-self: center;
+  padding: 2rem 1rem 1rem 0rem;
+  /* margin: auto; */
 }
 
 .main_text {
-    font-size: var(--font-size-heading-1);
-    font-weight: var(--font-weight-bold);
-    line-height: 1;
-    max-width: 37rem;
-    /* padding: 0rem 0 0rem; */
-    /* align-self: center; */
+  font-size: var(--font-size-heading-1);
+  font-weight: var(--font-weight-bold);
+  line-height: 1;
+  max-width: 37rem;
+  /* padding: 0rem 0 0rem; */
+  /* align-self: center; */
 }
 
 .secondary_text {
-    font-size: var(--font-size-sub-heading-2);
-    font-weight: var(--font-weight-normal);
-    /* line-height: 1.5; */
-    max-width: 28rem;
-    /* padding: 0.6rem 0 0.6rem; */
-    line-break: auto;
+  font-size: var(--font-size-sub-heading-2);
+  font-weight: var(--font-weight-normal);
+  /* line-height: 1.5; */
+  max-width: 28rem;
+  /* padding: 0.6rem 0 0.6rem; */
+  line-break: auto;
 }
 
 .hero_image {
-    align-self: center;
-    /* min-width: 200px; */
-    /* min-height: 100px; */
-    /* padding: 4rem; */
-    margin-top: 2rem;
-    margin-left: 1.6rem;
+  align-self: center;
+  /* min-width: 200px; */
+  /* min-height: 100px; */
+  /* padding: 4rem; */
+  margin-top: 2rem;
+  margin-left: 1.6rem;
 }
 
 .shop_now_btn {
-    color: var(--secondary-text-color);
-    border: none;
-    border-radius: 1px;
-    background-color: var(--primary-text-color);
-    padding: 0.7rem 1.5rem;
-    font-weight: var(--font-weight-normal);
-    cursor: pointer;
+  color: var(--secondary-text-color);
+  border: none;
+  border-radius: 1px;
+  background-color: var(--primary-text-color);
+  padding: 0.7rem 1.5rem;
+  font-weight: var(--font-weight-normal);
+  cursor: pointer;
 }

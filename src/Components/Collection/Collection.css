@@ -1,14 +1,16 @@
 .collection {
   /* display: flex;
   flex-direction: column; */
-  height: 30rem;
+  height: 45rem;
   width: 100%;
   color: var(--primary-text-color);
   align-items: center;
+  margin-top: 4rem;
 }
 .collection_heading {
   width: 100%;
   text-align: center;
+  font-size: 1.5rem;
   height: 4rem;
 }
 
@@ -16,6 +18,7 @@
   display: flex;
   flex-wrap: wrap;
   column-gap: 2rem;
+  margin-top: 4rem;
   row-gap: 2rem;
   padding: 4rem;
   height: 25rem;
