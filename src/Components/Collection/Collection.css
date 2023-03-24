@@ -1,7 +1,7 @@
 .collection {
   /* display: flex;
   flex-direction: column; */
-  height: 45rem;
+  height: 40rem;
   width: 100%;
   color: var(--primary-text-color);
   align-items: center;
@@ -11,14 +11,13 @@
   width: 100%;
   text-align: center;
   font-size: 1.5rem;
-  height: 4rem;
+  /* height: 4rem; */
 }
 
 .cardDiv {
   display: flex;
   flex-wrap: wrap;
   column-gap: 2rem;
-  margin-top: 4rem;
   row-gap: 2rem;
   padding: 4rem;
   height: 25rem;

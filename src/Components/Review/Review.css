@@ -1,24 +1,28 @@
-.cardDiv {
+.reviewDiv {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 2rem;
-  margin-top: 4rem;
-  row-gap: 2rem;
-  padding: 4rem;
-  height: 25rem;
+  color: var(--primary-text-color);
+  height: 45rem;
   width: 100%;
   align-items: center;
   position: absolute;
 }
-.card {
+
+.reviewHeadline {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  height: 2rem;
+}
+.reviewCard {
   height: 16rem;
   width: 24rem;
+  background-color: #eeddcc;
   position: relative;
   text-align: center;
   margin: auto;
   padding: 1rem;
-  border: 1px solid black;
 }
-p {
+.reviewText {
   padding: 2rem;
 }
