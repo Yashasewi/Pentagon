@@ -1,33 +1,51 @@
 .collection {
-  /* display: flex;
-  flex-direction: column; */
-  height: 30rem;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 40rem;
+  gap: 1rem;
   color: var(--primary-text-color);
-  align-items: center;
+  /* align-items: center; */
+  /* justify-self: center; */
+  padding-top: 4rem;
+  padding-bottom: 1rem;
 }
 .collection_heading {
   width: 100%;
+  padding: 1rem;
   text-align: center;
-  height: 4rem;
+  font-size: 1.5rem;
+  /* height: 4rem; */
 }
+
 
 .cardDiv {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 2rem;
+  margin: 2rem;
+  padding: 2rem;
+  justify-content: space-evenly;
+  column-gap: 0;
   row-gap: 2rem;
-  padding: 4rem;
-  height: 25rem;
-  width: 100%;
-  align-items: center;
-  position: absolute;
 }
+
+
 .card {
-  height: 16rem;
-  width: 16rem;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  flex-wrap: wrap;
+  /* max-height: 20rem; */
+  /* width: 20rem; */
   text-align: center;
   margin: auto;
-  border: 1px solid black;
+  /* border: 1px solid rgb(227, 11, 11); */
+}
+
+
+.card_image {
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: cover;
 }
