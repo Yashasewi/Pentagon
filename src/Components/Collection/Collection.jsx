@@ -12,18 +12,18 @@ function Collection() {
             </div>
             <div className="cardDiv">
                 <div className="card">
-                    <Image src={card} alt="sdfgh" width={300} height={300} />
+                    <Image src={card} alt="test" width={300} height={300} />
                     <p className="cardButton">T-shirt</p>
                 </div>
                 <div className="card">
-                    <Image src={card} alt="sdfgh" width={300} height={300} />
+                    <Image src={card} alt="test" width={300} height={300} />
                     <p className="cardButton">Sweater</p>
                 </div>
                 <div className="card">
                     <Image
                         className="card_image "
                         src={card}
-                        alt="sdfgh"
+                        alt="test"
                         width={300}
                         height={300}
                     />
