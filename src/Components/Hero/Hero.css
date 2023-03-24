@@ -1,16 +1,17 @@
 .hero {
     background-color: var(--hero-background);
-    height: 100vh;
-    max-height: 700px;
+    /* height: 100vh; */
+    max-height: 1300px;
     color: var(--primary-text-color);
     align-items: center;
-    padding: 0.3rem 9rem;
+    padding: 0.3rem 5rem;
 }
 
 .logo {
     font-size: 1.4rem;
     font-weight: var(--font-weight-bold);
 }
+
 .nav_section {
     display: flex;
     justify-content: space-between;
@@ -46,24 +47,16 @@
     gap: 1.7rem;
 }
 
-.btn {
-    padding: 4px 1.1rem;
-    border: 2.3px solid var(--primary-text-color);
-    background-color: transparent;
-    /* font-size: 1rem; */
-    font-weight: var(--font-weight-medium);
-    color: var(--primary-text-color);
-    transition: all 0.3s ease-in-out;
-    margin-right: 2.4rem;
-}
-
 .hero_content {
+    height: 100%;
     display: flex;
-
-    /* justify-content: space-between; */
-    align-items: center;
-    width: 100%;
-    column-gap: 5rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    /* align-items: ; */
+    /* width: 100%; */
+    /* column-gap: 5rem; */
 }
 
 .hero_text {
@@ -71,8 +64,8 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
-    align-self: center;
-    padding: 2rem 1rem 1rem 0rem;
+    /* align-self: center; */
+    padding: 0rem 1rem 1rem 0rem;
     /* margin: auto; */
 }
 
@@ -95,11 +88,11 @@
 }
 
 .hero_image {
-    align-self: center;
+    /* align-self: center; */
     /* min-width: 200px; */
     /* min-height: 100px; */
     /* padding: 4rem; */
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     margin-left: 1.6rem;
 }
 
@@ -111,4 +104,18 @@
     padding: 0.7rem 1.5rem;
     font-weight: var(--font-weight-normal);
     cursor: pointer;
+}
+
+.login_btn {
+    padding: 0.3rem 0.5rem;
+    font-weight: var(--font-weight-normal);
+    margin: 0;
+    cursor: pointer;
+    border: 2.3px solid var(--primary-text-color);
+    background-color: transparent;
+    color: var(--primary-text-color);
+}
+
+.btn {
+    transition: all 1s ease-in-out;
 }

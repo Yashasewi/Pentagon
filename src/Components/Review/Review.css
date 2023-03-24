@@ -1,0 +1,28 @@
+.reviewDiv {
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--primary-text-color);
+  height: 45rem;
+  width: 100%;
+  align-items: center;
+  position: absolute;
+}
+
+.reviewHeadline {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  height: 2rem;
+}
+.reviewCard {
+  height: 16rem;
+  width: 24rem;
+  background-color: #eeddcc;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+}
+.reviewText {
+  padding: 2rem;
+}
