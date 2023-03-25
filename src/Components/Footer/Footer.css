@@ -6,7 +6,7 @@
     height: 5rem;
     background-color: var(--primary-text-color);
     color: white;
-
+    padding: 1rem;
     font-weight: var(--font-weight-semibold);
     /* display: none; */
 }
