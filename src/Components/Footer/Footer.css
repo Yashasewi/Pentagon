@@ -1,5 +1,12 @@
 .footer {
-  height: 10rem;
-  background-color: var(--primary-text-color);
-  color: white;
+    display: flex;
+    /* margin-left: 20px; */
+    justify-content: center;
+    gap: 3rem;
+    height: 5rem;
+    background-color: var(--primary-text-color);
+    color: white;
+
+    font-weight: var(--font-weight-semibold);
+    /* display: none; */
 }

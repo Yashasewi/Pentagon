@@ -7,13 +7,13 @@ import Review from "@/Components/Review/Review";
 import Footer from "@/Components/Footer/Footer";
 
 export default function Home() {
-  return (
-    <>
-      <Hero />
-      <Collection />
-      <BestSeller />
-      <Review />
-      {/* <Footer /> */}
-    </>
-  );
+    return (
+        <>
+            <Hero />
+            <Collection />
+            <BestSeller />
+            <Review />
+            <Footer />
+        </>
+    );
 }

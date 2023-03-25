@@ -8,26 +8,28 @@ function Review() {
           ullamcorper congue eros
         </p>
       </div>
-      <div className="reviewCard">
-        <h2 className="reviewButton">T-shirt</h2>
-        <p className="reviewText">
-          Lorem ipsum is placeholder text commonly used in the graphic, print,
-          and publishing industries for previewing layouts and visual mockups.
-        </p>
-      </div>
-      <div className="reviewCard">
-        <h2 className="reviewButton">Sweater</h2>
-        <p className="reviewText">
-          Lorem ipsum is placeholder text commonly used in the graphic, print,
-          and publishing industries for previewing layouts and visual mockups.
-        </p>
-      </div>
-      <div className="reviewCard">
-        <h2 className="reviewButton">Long Sleeve</h2>
-        <p className="reviewText">
-          Lorem ipsum is placeholder text commonly used in the graphic, print,
-          and publishing industries for previewing layouts and visual mockups.
-        </p>
+      <div className="reviewSection">
+        <div className="reviewCard">
+          <h2 className="reviewButton">T-shirt</h2>
+          <p className="reviewText">
+            Lorem ipsum is placeholder text commonly used in the graphic, print,
+            and publishing industries for previewing layouts and visual mockups.
+          </p>
+        </div>
+        <div className="reviewCard">
+          <h2 className="reviewButton">Sweater</h2>
+          <p className="reviewText">
+            Lorem ipsum is placeholder text commonly used in the graphic, print,
+            and publishing industries for previewing layouts and visual mockups.
+          </p>
+        </div>
+        <div className="reviewCard">
+          <h2 className="reviewButton">Long Sleeve</h2>
+          <p className="reviewText">
+            Lorem ipsum is placeholder text commonly used in the graphic, print,
+            and publishing industries for previewing layouts and visual mockups.
+          </p>
+        </div>
       </div>
     </div>
   );
