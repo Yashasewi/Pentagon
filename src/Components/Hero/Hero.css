@@ -107,9 +107,9 @@
 }
 
 .login_btn {
-    padding: 0.3rem 0.5rem;
+    max-width: 10rem;
+    padding: 0.3rem 1.7rem;
     font-weight: var(--font-weight-normal);
-    margin: 0;
     cursor: pointer;
     border: 2.3px solid var(--primary-text-color);
     background-color: transparent;
