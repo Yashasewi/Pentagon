@@ -1,18 +1,39 @@
 .bestseller {
-  height: 43rem;
-  background-color: var(--primary-text-color);
-  padding: 8rem;
+    min-height: 35rem;
+    /* height: 43rem; */
+    background-color: var(--primary-text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* padding: 8rem; */
 }
 .bestSellerHeading {
-  color: white;
-  font-size: 1.5rem;
-  height: 20rem;
-  width: 20rem;
+    color: var(--secondary-text-color);
+    font-size: 1.5rem;
+    /* height: 20rem; */
+    /* width: 20rem; */
 }
-button {
-  background-color: var(--primary-text-color);
-  color: white;
-  padding: 1rem;
-  margin: 2rem 0rem 2rem 0rem;
-  width: 16rem;
+
+.bestSellerHeading > h1 {
+    font-size: var(--font-size-heading-3);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 2rem;
+}
+
+.bestSellerHeading > p {
+    font-size: var(--font-size-sub-heading-3);
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: 2rem;
+}
+
+.bestSellerHeading > button {
+    font-size: var(--font-size-sub-heading-3);
+    font-weight: var(--font-weight-normal);
+    padding: 0.5rem 1rem;
+    border: 2.3px solid var(--secondary-text-color);
+    background-color: transparent;
+    color: var(--secondary-text-color);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
