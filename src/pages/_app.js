@@ -10,7 +10,9 @@ import "../Components/Review/Review.css";
 
 import Head from "next/head";
 
+
 export default function App({ Component, pageProps }) {
+    
     return (
         <>
             <Head>
@@ -18,7 +20,7 @@ export default function App({ Component, pageProps }) {
                 <meta name="description" content="Pentagon" />
                 <link rel="icon" href="/Pentagon.png?ao_noptimize=1" />
             </Head>
-            
+
             <Component {...pageProps} />
         </>
     );
