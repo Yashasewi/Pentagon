@@ -8,6 +8,8 @@ import "../Components/Hero/Hero.css";
 import "../Components/Products/Products.css";
 import "../Components/Review/Review.css";
 
+import "../pages/Product/index.css"
+
 import Head from "next/head";
 
 

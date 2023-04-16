@@ -1,7 +1,7 @@
-import reviewer from "/public/Images/Hero.png";
+import { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import Image from "next/image";
-import { useEffect } from "react";
+import reviewer from "/public/Images/Hero.png";
 
 function horizontalLoop(items, config) {
     items = gsap.utils.toArray(items);
@@ -113,8 +113,13 @@ function horizontalLoop(items, config) {
 }
 
 function Review() {
+    const reviewRef = useRef(null);
+
     useEffect(() => {
-        const card = gsap.utils.toArray(".reviewCard");
+        // console.log(reviewRef);
+
+        const card = reviewRef.current.querySelectorAll(".reviewCard");
+
         const loop = horizontalLoop(card, {
             repeat: -1,
             speed: 1,
@@ -158,7 +163,7 @@ function Review() {
                     ullamcorper congue eros
                 </p>
             </div>
-            <div className="reviewSection">
+            <div className="reviewSection" ref={reviewRef}>
                 <div className="reviewCard">
                     <div className="reviewInfo">
                         <h4>
@@ -184,7 +189,7 @@ function Review() {
                         </div>
                         <div className="reviewerInfo">
                             <h4>John Doe</h4>
-                            <p>Customer</p>
+                            <p>⭐⭐⭐⭐⭐</p>
                         </div>
                     </div>
                 </div>
