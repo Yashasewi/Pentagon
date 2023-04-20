@@ -7,14 +7,12 @@ import "../Components/Footer/Footer.css";
 import "../Components/Hero/Hero.css";
 import "../Components/Products/Products.css";
 import "../Components/Review/Review.css";
-
 import "../pages/Product/ProductDetails/ProductDetail.css";
-
 import "../pages/Product/index.css";
 
 import Head from "next/head";
 
-export default function App({ Component, pageProps }) {
+export default function App({Component, pageProps}) {
     return (
         <>
             <Head>
