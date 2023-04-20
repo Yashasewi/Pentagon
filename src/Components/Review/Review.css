@@ -1,36 +1,92 @@
 .reviewDiv {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  color: var(--primary-text-color);
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: var(--primary-text-color);
+    gap: 3rem;
+    padding: 3rem 0;
 }
 
 .reviewHeadline {
-  text-align: center;
-  font-size: 1.5rem;
-  height: 2rem;
-  width: 100%;
-  padding: 3rem;
+    text-align: center;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+}
+
+.reviewHeadline > p {
+    font-size: clamp(0.9rem, 1.5vw, 1.3rem);
+}
+
+.reviewSection {
+    height: 100%;
+    display: flex;
+    gap: 1rem;
+    flex-shrink: 0;
+    /* overflow-x: hidden; */
+    scrollbar-color: transparent transparent;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    /* padding: 0 1rem; */
 }
 .reviewCard {
-  /* padding-top: 5rem; */
-  height: 16rem;
-  width: 24rem;
-  background-color: #eeddcc;
-  text-align: center;
-  padding: 1rem;
-  padding-bottom: 3rem;
-}
-.reviewText {
-  padding: 2rem;
+    cursor: pointer;
+    padding: 0 1.3rem 0rem 1.3rem;
+    margin: 0rem 0.2rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--hero-background);
+    justify-content: center;
+    align-items: center;
+    min-width: clamp(26rem, 30vw, 30rem);
+    min-height: 19rem;
+    border-radius: 0.5rem;
 }
 
-.reviewSection{
-  display: flex;
-  gap: 3rem;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 5rem;
+.reviewInfo {
+    text-align: center;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
 
+.reviewInfo > h4 {
+    max-width: 20rem;
+    font-size: clamp(0.9rem, 1.5vw, 1rem);
+}
+
+.reviewInfo > p {
+    max-width: 27rem;
+    font-size: clamp(0.8rem, 1.5vw, 0.9rem);
+    color: var(--primary-text-color);
+}
+
+.reviewerImage {
+    border-radius: 50%;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.reviewerInfo > h4 {
+    text-align: center;
+    width: 100%;
+    font-size: clamp(0.8rem, 2vw, 0.9rem);
+    color: var(--primary-text-color);
+}
+
+.reviewerInfo > p {
+    text-align: center;
+    width: 100%;
+    font-size: clamp(0.7rem, 2vw, 0.98rem);
+    color: var(--primary-text-color);
+}
+
+.reviewSection::-webkit-scrollbar {
+    display: none;
 }
