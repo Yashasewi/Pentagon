@@ -1,13 +1,18 @@
-import Head from "next/head";
-import Image from "next/image";
+import BestSeller from "@/Components/BestSeller/BestSeller";
+import Collection from "@/Components/Collection/Collection";
+import Footer from "@/Components/Footer/Footer";
+import Hero from "@/Components/Hero/Hero";
+import Review from "@/Components/Review/Review";
 import { Inter } from "next/font/google";
 
-import Hero from "@/Components/Hero/Hero";
-
-
-
 export default function Home() {
-    return <>
-        <Hero />
-    </>;
+  return (
+    <>
+      <Hero />
+      <Collection />
+      <BestSeller />
+      <Review />
+      <Footer />
+    </>
+  );
 }
