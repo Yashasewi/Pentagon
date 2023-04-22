@@ -1,76 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;600;700&display=swap");
 :root {
-    --font-weight-light: 300;
-    --font-weight-normal: 400;
-    --font-weight-semibold: 600;
-    --font-weight-bold: 700;
-    --font-family: "Frank Ruhl Libre", serif;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-family: "Frank Ruhl Libre", serif;
 
-    --hero-background: #eeddcc;
+  --hero-background: #eeddcc;
 
-    --primary-text-color: #34251f;
-    --secondary-text-color: #ffffff;
+  --primary-text-color: #34251f;
+  --secondary-text-color: #ffffff;
 
-    --font-size-heading-1: 4.875rem;
-    --font-size-sub-heading-1: 1.375rem;
+  --font-size-heading-1: 4.875rem;
+  --font-size-sub-heading-1: 1.375rem;
 
-    --font-size-hading-2: 4.25rem;
-    --font-size-sub-heading-2: 1.25rem;
+  --font-size-hading-2: 4.25rem;
+  --font-size-sub-heading-2: 1.25rem;
 
-    --font-size-heading-3: 3rem;
-    --font-size-sub-heading-3: 1.25rem;
+  --font-size-heading-3: 3rem;
+  --font-size-sub-heading-3: 1.25rem;
 
-    --font-size-heading-4: 3rem;
-    --font-size-sub-heading-4: 1.25rem;
+  --font-size-heading-4: 3rem;
+  --font-size-sub-heading-4: 1.25rem;
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
-        --font-family: "Frank Ruhl Libre", serif;
-    }
+  :root {
+    --font-family: "Frank Ruhl Libre", serif;
+  }
 }
 
 /* Box sizing rules */
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Remove default margin */
 * {
-    margin: 0;
+  margin: 0;
 }
 
 ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-
 
 /* Set core root defaults */
 html:focus-within {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* Set core body defaults */
 body {
-    min-height: 100vh;
-    text-rendering: optimizeSpeed;
-    line-height: 1.5;
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
 }
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
-    text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;
 }
 
 /* Make images easier to work with */
 img,
 picture {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -78,30 +80,30 @@ input,
 button,
 textarea,
 select {
-    font: inherit;
+  font: inherit;
 }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
-    html:focus-within {
-        scroll-behavior: auto;
-    }
+  html:focus-within {
+    scroll-behavior: auto;
+  }
 
-    *,
-    *::before,
-    *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-        scroll-behavior: auto !important;
-    }
-    html{
-        scroll-behavior: smooth !important;
-    }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  html {
+    scroll-behavior: smooth !important;
+  }
 }
 
 body {
-    font-family: var(--font-family);
+  font-family: var(--font-family);
 }
 
 /* @media (prefers-color-scheme: dark) {
