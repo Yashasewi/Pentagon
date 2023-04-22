@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.14",
+    "@heroicons/react": "^2.0.17",
     "gsap": "^3.11.5",
     "heroicons": "^2.0.17",
     "next": "13.2.4",
