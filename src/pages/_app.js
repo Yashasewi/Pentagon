@@ -13,6 +13,7 @@ import "../pages/Product/ProductDetails/ProductDetail.css";
 import "../pages/Product/index.css";
 
 import Head from "next/head";
+import Footer from "@/Components/Footer/Footer";
 
 export default function App({ Component, pageProps }) {
     return (
@@ -24,6 +25,7 @@ export default function App({ Component, pageProps }) {
             </Head>
 
             <Component {...pageProps} />
+            <Footer />
         </>
     );
 }
