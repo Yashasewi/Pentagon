@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import imageSrc from "/public/images/Hero.png";
+import Hero from "/public/images/Hero.png";
 
 const ProductCard = ({
     title,
@@ -16,7 +16,7 @@ const ProductCard = ({
             <div className="product-img-wrapper">
                 {/* <img src={imgSrc} alt={title} className="product-img" /> */}
                 <Image
-                    src={imageSrc}
+                    src={Hero}
                     alt={title}
                     loading="lazy"
                     width={300}
