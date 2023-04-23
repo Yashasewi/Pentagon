@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import card from "/public/Images/collectionCard.svg";
 
