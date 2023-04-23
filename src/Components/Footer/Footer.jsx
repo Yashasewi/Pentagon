@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default () => {
     const footerNavs = [
         {
@@ -70,7 +71,10 @@ export default () => {
             <div className="justify-between gap-6 md:flex">
                 <div className="flex-1">
                     <div className="max-w-xs">
-                        <img
+                        <Image
+                        alt="Float UI Logo"
+                            width={100}
+                            height={100}
                             src="https://www.floatui.com/logo.svg"
                             className="w-32"
                         />
@@ -79,21 +83,6 @@ export default () => {
                             text ever since the 1500s.
                         </p>
                     </div>
-                    <form onSubmit={(e) => e.preventDefault()}>
-                        <label className="block pt-4 pb-2">
-                            Stay up to date
-                        </label>
-                        <div className="flex max-w-sm items-center rounded-md border p-1">
-                            <input
-                                type="email"
-                                placeholder="Enter your email"
-                                className="w-full p-2.5 outline-none"
-                            />
-                            <button className="rounded-md bg-indigo-600 p-2.5 text-white shadow-md outline-none focus:shadow-none sm:px-5">
-                                Subscribe
-                            </button>
-                        </div>
-                    </form>
                 </div>
                 <div className="mt-10 flex-1 items-center justify-between space-y-6 sm:flex md:mt-0 md:space-y-0">
                     {footerNavs.map((item, idx) => (
