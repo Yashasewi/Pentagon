@@ -1,5 +1,4 @@
 import "@/styles/globals.css";
-import "../Components/AboutUs/AboutUs.css";
 import "../Components/BestSeller/BestSeller.css";
 import "../Components/Collection/Collection.css";
 import "../Components/Discount/Discount.css";
@@ -9,9 +8,10 @@ import "../Components/Products/Products.css";
 import "../Components/Review/Review.css";
 import "../pages/Product/ProductDetails/ProductDetail.css";
 import "../pages/Product/index.css";
-
+import "../Components/Navbar/Navbar.css";
 import Footer from "@/Components/Footer/Footer";
 import Head from "next/head";
+import { Navbar } from "@/Components/Navbar/Navbar";
 
 export default function App({ Component, pageProps }) {
   return (
@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }) {
         <meta name="description" content="Pentagon" />
         <link rel="icon" href="/Pentagon.png?ao_noptimize=1" />
       </Head>
-
+      <Navbar />
       <Component {...pageProps} />
       <Footer />
     </>
