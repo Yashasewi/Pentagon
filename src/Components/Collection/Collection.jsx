@@ -1,6 +1,7 @@
 import Image from "next/image";
-import card from "/public/Images/collectionCard.svg";
 function Collection() {
+  const card =
+      "https://tailwindui.com/img/ecommerce-images/product-page-02-featured-product-shot.jpg";
   return (
     <div className="collection">
       <div className="collection_heading">

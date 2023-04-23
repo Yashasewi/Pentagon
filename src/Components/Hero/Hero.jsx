@@ -1,9 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import hero from "/public/Images/Hero.png";
+// import hero from "/public/Images/Hero.png";
 
 function Hero() {
+    const hero =
+        "https://tailwindui.com/img/ecommerce-images/product-page-02-featured-product-shot.jpg";
     return (
         <div className="hero">
             <nav className="nav_section">
