@@ -17,13 +17,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
     padding: 1rem 0rem;
 }
 
 .nav_buttons {
-    user-select: none;
+    /* user-select: none; */
     color: var(--primary-text-color);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
@@ -44,6 +46,7 @@
 
 .buttons {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 1.7rem;
 }
@@ -105,11 +108,11 @@
 }
 
 .shop_now_btn {
-    color: var(--secondary-text-color);
-    border: none;
-    border-radius: 1px;
-    background-color: var(--primary-text-color);
-    padding: 0.7rem 1.5rem;
+    color: black;
+    border: solid 2px black;
+    border-radius: 10px;
+    /* background-color: var(--primary-text-color); */
+    padding: 0.6rem 1.7rem;
     font-weight: var(--font-weight-normal);
     cursor: pointer;
 }
