@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-// import imageSrc from "/public/images/Hero.png";
+import imageSrc from "/public/images/Hero.png";
 
 const ProductCard = ({
     title,
@@ -11,24 +11,6 @@ const ProductCard = ({
     isOversized,
     fabricType,
 }) => {
-    const imageSrc = "alt for img"
-    // console.log(
-    //     imageSrc +
-    //         " " +
-    //         title +
-    //         " " +
-    //         brand +
-    //         " " +
-    //         price +
-    //         " " +
-    //         discountedPrice +
-    //         " " +
-    //         fabricType +
-    //         " " +
-    //         rating +
-    //         " " +
-    //         isOversized
-    // );
     return (
         <div className="product-card">
             <div className="product-img-wrapper">
