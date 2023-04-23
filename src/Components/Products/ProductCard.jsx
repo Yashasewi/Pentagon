@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import imageSrc from "/public/testsub.png";
+import imageSrc from "/public/images/Hero.png";
 
 const ProductCard = ({
     title,
