@@ -11,6 +11,7 @@ const ProductCard = ({
     isOversized,
     fabricType,
 }) => {
+    const imageSrc = "alt for img"
     // console.log(
     //     imageSrc +
     //         " " +
