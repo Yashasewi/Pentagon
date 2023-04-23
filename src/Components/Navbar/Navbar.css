@@ -1,0 +1,31 @@
+.nav_section {
+  display: flex;
+  background-color: var(--hero-background);
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.nav_buttons {
+  /* user-select: none; */
+  color: var(--primary-text-color);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav_buttons > a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+  /* font-size: 1.5rem; */
+  font-weight: var(--font-weight-semibold);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav_buttons > a:hover {
+  /* color: var(--secondary-text-color); */
+  opacity: 0.5;
+}
