@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Hero from "/public/images/Hero.png";
 
 const ProductCard = ({
     title,
@@ -16,7 +15,9 @@ const ProductCard = ({
             <div className="product-img-wrapper">
                 {/* <img src={imgSrc} alt={title} className="product-img" /> */}
                 <Image
-                    src={Hero}
+                    src={
+                        "https://tailwindui.com/img/ecommerce-images/product-page-02-featured-product-shot.jpg"
+                    }
                     alt={title}
                     loading="lazy"
                     width={300}
