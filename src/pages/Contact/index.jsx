@@ -1,145 +1,224 @@
-export default () => {
-    const contactMethods = [
-        {
-            icon: (
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={1.5}
-                    stroke="currentColor"
-                    className="h-6 w-6"
-                >
-                    <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
-                    />
-                </svg>
-            ),
-            contact: "Support@example.com",
-        },
-        {
-            icon: (
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={1.5}
-                    stroke="currentColor"
-                    className="h-6 w-6"
-                >
-                    <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
-                    />
-                </svg>
-            ),
-            contact: "+1 (555) 000-000",
-        },
-        {
-            icon: (
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={1.5}
-                    stroke="currentColor"
-                    className="h-6 w-6"
-                >
-                    <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
-                    />
-                    <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
-                    />
-                </svg>
-            ),
-            contact: "Mountain View, California, United State.",
-        },
-    ];
+import {
+    BuildingOffice2Icon,
+    EnvelopeIcon,
+    PhoneIcon,
+} from "@heroicons/react/24/outline";
 
+export default function Example() {
     return (
-        <main className="py-14">
-            <div className="mx-auto max-w-screen-xl px-4 text-gray-600 md:px-8">
-                <div className="mx-auto max-w-lg justify-between gap-12 lg:flex lg:max-w-none">
-                    <div className="max-w-lg space-y-3">
-                        <h3 className="font-semibold text-indigo-600">
-                            Contact
-                        </h3>
-                        <p className="text-3xl font-semibold text-gray-800 sm:text-4xl">
-                            Let us know how we can help
-                        </p>
-                        <p>
-                            We’re here to help and answer any question you might
-                            have, We look forward to hearing from you! Please
-                            fill out the form, or us the contact information
-                            bellow .
-                        </p>
-                        <div>
-                            <ul className="mt-6 flex flex-wrap items-center gap-x-10 gap-y-6">
-                                {contactMethods.map((item, idx) => (
-                                    <li
-                                        key={idx}
-                                        className="flex items-center gap-x-3"
+        <div className="relative isolate bg-white">
+            <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
+                <div className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
+                    <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
+                        <div className="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden bg-gray-100 ring-1 ring-gray-900/10 lg:w-1/2">
+                            <svg
+                                className="absolute inset-0 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+                                aria-hidden="true"
+                            >
+                                <defs>
+                                    <pattern
+                                        id="83fd4e5a-9d52-42fc-97b6-718e5d7ee527"
+                                        width={200}
+                                        height={200}
+                                        x="100%"
+                                        y={-1}
+                                        patternUnits="userSpaceOnUse"
                                     >
-                                        <div className="flex-none text-gray-400">
-                                            {item.icon}
-                                        </div>
-                                        <p>{item.contact}</p>
-                                    </li>
-                                ))}
-                            </ul>
+                                        <path
+                                            d="M130 200V.5M.5 .5H200"
+                                            fill="none"
+                                        />
+                                    </pattern>
+                                </defs>
+                                <rect
+                                    width="100%"
+                                    height="100%"
+                                    strokeWidth={0}
+                                    fill="white"
+                                />
+                                <svg
+                                    x="100%"
+                                    y={-1}
+                                    className="overflow-visible fill-gray-50"
+                                >
+                                    <path
+                                        d="M-470.5 0h201v201h-201Z"
+                                        strokeWidth={0}
+                                    />
+                                </svg>
+                                <rect
+                                    width="100%"
+                                    height="100%"
+                                    strokeWidth={0}
+                                    fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)"
+                                />
+                            </svg>
                         </div>
-                    </div>
-                    <div className="mt-12 flex-1 sm:max-w-lg lg:max-w-md">
-                        <form
-                            onSubmit={(e) => e.preventDefault()}
-                            className="space-y-5"
-                        >
-                            <div>
-                                <label className="font-medium">Full name</label>
-                                <input
-                                    type="text"
-                                    required
-                                    className="mt-2 w-full rounded-lg border bg-transparent px-3 py-2 text-gray-500 shadow-sm outline-none focus:border-indigo-600"
-                                />
+                        <h2 className="text-3xl font-bold tracking-tight text-gray-900">
+                            Get in touch
+                        </h2>
+                        <p className="mt-6 text-lg leading-8 text-gray-600">
+                            Proin volutpat consequat porttitor cras nullam
+                            gravida at. Orci molestie a eu arcu. Sed ut
+                            tincidunt integer elementum id sem. Arcu sed
+                            malesuada et magna.
+                        </p>
+                        <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
+                            <div className="flex gap-x-4">
+                                <dt className="flex-none">
+                                    <span className="sr-only">Telephone</span>
+                                    <BuildingOffice2Icon
+                                        className="h-7 w-6 text-gray-400"
+                                        aria-hidden="true"
+                                    />
+                                </dt>
+                                <dd>
+                                    545 Mavis Island
+                                    <br />
+                                    Chicago, IL 99191
+                                </dd>
                             </div>
-                            <div>
-                                <label className="font-medium">Email</label>
-                                <input
-                                    type="email"
-                                    required
-                                    className="mt-2 w-full rounded-lg border bg-transparent px-3 py-2 text-gray-500 shadow-sm outline-none focus:border-indigo-600"
-                                />
+                            <div className="flex gap-x-4">
+                                <dt className="flex-none">
+                                    <span className="sr-only">Telephone</span>
+                                    <PhoneIcon
+                                        className="h-7 w-6 text-gray-400"
+                                        aria-hidden="true"
+                                    />
+                                </dt>
+                                <dd>
+                                    <a
+                                        className="hover:text-gray-900"
+                                        href="tel:+1 (555) 234-5678"
+                                    >
+                                        +1 (555) 234-5678
+                                    </a>
+                                </dd>
                             </div>
-                            <div>
-                                <label className="font-medium">Company</label>
-                                <input
-                                    type="text"
-                                    required
-                                    className="mt-2 w-full rounded-lg border bg-transparent px-3 py-2 text-gray-500 shadow-sm outline-none focus:border-indigo-600"
-                                />
+                            <div className="flex gap-x-4">
+                                <dt className="flex-none">
+                                    <span className="sr-only">Telephone</span>
+                                    <EnvelopeIcon
+                                        className="h-7 w-6 text-gray-400"
+                                        aria-hidden="true"
+                                    />
+                                </dt>
+                                <dd>
+                                    <a
+                                        className="hover:text-gray-900"
+                                        href="mailto:hello@example.com"
+                                    >
+                                        hello@example.com
+                                    </a>
+                                </dd>
                             </div>
-                            <div>
-                                <label className="font-medium">Message</label>
-                                <textarea
-                                    required
-                                    className="mt-2 h-36 w-full resize-none appearance-none rounded-lg border bg-transparent px-3 py-2 shadow-sm outline-none focus:border-indigo-600"
-                                ></textarea>
-                            </div>
-                            <button className="w-full rounded-lg bg-indigo-600 px-4 py-2 font-medium text-white duration-150 hover:bg-indigo-500 active:bg-indigo-600">
-                                Submit
-                            </button>
-                        </form>
+                        </dl>
                     </div>
                 </div>
+                {/* <form
+                    action="#"
+                    method="POST"
+                    className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48"
+                >
+                    <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
+                        <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+                            <div>
+                                <label
+                                    htmlFor="first-name"
+                                    className="block text-sm font-semibold leading-6 text-gray-900"
+                                >
+                                    First name
+                                </label>
+                                <div className="mt-2.5">
+                                    <input
+                                        type="text"
+                                        name="first-name"
+                                        id="first-name"
+                                        autoComplete="given-name"
+                                        className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                    />
+                                </div>
+                            </div>
+                            <div>
+                                <label
+                                    htmlFor="last-name"
+                                    className="block text-sm font-semibold leading-6 text-gray-900"
+                                >
+                                    Last name
+                                </label>
+                                <div className="mt-2.5">
+                                    <input
+                                        type="text"
+                                        name="last-name"
+                                        id="last-name"
+                                        autoComplete="family-name"
+                                        className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                    />
+                                </div>
+                            </div>
+                            <div className="sm:col-span-2">
+                                <label
+                                    htmlFor="email"
+                                    className="block text-sm font-semibold leading-6 text-gray-900"
+                                >
+                                    Email
+                                </label>
+                                <div className="mt-2.5">
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        id="email"
+                                        autoComplete="email"
+                                        className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                    />
+                                </div>
+                            </div>
+                            <div className="sm:col-span-2">
+                                <label
+                                    htmlFor="phone-number"
+                                    className="block text-sm font-semibold leading-6 text-gray-900"
+                                >
+                                    Phone number
+                                </label>
+                                <div className="mt-2.5">
+                                    <input
+                                        type="tel"
+                                        name="phone-number"
+                                        id="phone-number"
+                                        autoComplete="tel"
+                                        className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                    />
+                                </div>
+                            </div>
+                            <div className="sm:col-span-2">
+                                <label
+                                    htmlFor="message"
+                                    className="block text-sm font-semibold leading-6 text-gray-900"
+                                >
+                                    Message
+                                </label>
+                                <div className="mt-2.5">
+                                    <textarea
+                                        name="message"
+                                        id="message"
+                                        rows={4}
+                                        className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                        defaultValue={""}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="mt-8 flex justify-end">
+                            <button
+                                type="submit"
+                                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                            >
+                                Send message
+                            </button>
+                        </div>
+                    </div>
+                </form> */}
             </div>
-        </main>
+        </div>
     );
-};
+}
