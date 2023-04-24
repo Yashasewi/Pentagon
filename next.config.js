@@ -7,7 +7,7 @@ const nextConfig = {
                 protocol: "https",
                 hostname: "tailwindui.com",
                 port: "",
-                pathname: "/img/ecommerce-images/**",
+                pathname: "/img/**",
             },
         ],
     },
