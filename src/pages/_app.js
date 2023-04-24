@@ -1,5 +1,4 @@
 import "@/styles/globals.css";
-import "../Components/AboutUs/AboutUs.css";
 import "../Components/BestSeller/BestSeller.css";
 import "../Components/Collection/Collection.css";
 import "../Components/Discount/Discount.css";
