@@ -11,19 +11,17 @@ import "../pages/Product/index.css";
 import "../Components/Navbar/Navbar.css";
 import Footer from "@/Components/Footer/Footer";
 import Head from "next/head";
-import { Navbar } from "@/Components/Navbar/Navbar";
 
 export default function App({ Component, pageProps }) {
-  return (
-    <>
-      <Head>
-        <title>Pentagon</title>
-        <meta name="description" content="Pentagon" />
-        <link rel="icon" href="/Pentagon.png?ao_noptimize=1" />
-      </Head>
-      <Navbar />
-      <Component {...pageProps} />
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <Head>
+                <title>Pentagon</title>
+                <meta name="description" content="Pentagon" />
+                <link rel="icon" href="/Pentagon.png?ao_noptimize=1" />
+            </Head>
+            <Component {...pageProps} />
+            <Footer />
+        </>
+    );
 }
