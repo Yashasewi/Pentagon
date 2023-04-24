@@ -18,7 +18,7 @@ export default () => {
                         <p className="">
                             Don't have an account?{" "}
                             <a
-                                href="javascript:void(0)"
+                                href="https://twitter.com/"
                                 className="font-medium text-indigo-600 hover:text-indigo-500"
                             >
                                 Sign up
@@ -165,7 +165,7 @@ export default () => {
                 </div>
                 <div className="text-center">
                     <a
-                        href="javascript:void(0)"
+                        href="https://twitter.com/"
                         className="hover:text-indigo-600"
                     >
                         Forgot password?
