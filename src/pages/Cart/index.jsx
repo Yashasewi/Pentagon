@@ -1,4 +1,3 @@
-
 import { Fragment, useState } from "react";
 import { Dialog, Popover, Tab, Transition } from "@headlessui/react";
 import {
@@ -967,7 +966,6 @@ export default function Example() {
                     </div>
                 </section>
             </main>
-
         </div>
     );
 }
