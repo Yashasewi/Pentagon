@@ -5,19 +5,19 @@ export default () => {
             label: "Company",
             items: [
                 {
-                    href: "javascript:void()",
+                    href: "https://twitter.com/",
                     name: "Partners",
                 },
                 {
-                    href: "javascript:void()",
+                    href: "https://twitter.com/",
                     name: "Blog",
                 },
                 {
-                    href: "javascript:void()",
+                    href: "https://twitter.com/",
                     name: "Team",
                 },
                 {
-                    href: "javascript:void()",
+                    href: "https://twitter.com/",
                     name: "Careers",
                 },
             ],
@@ -26,19 +26,19 @@ export default () => {
             label: "Resources",
             items: [
                 {
-                    href: "javascript:void()",
+                    href: "https://twitter.com/",
                     name: "contact",
                 },
                 {
-                    href: "javascript:void()",
+                    href: "https://twitter.com/",
                     name: "Support",
                 },
                 {
-                    href: "javascript:void()",
+                    href: "https://twitter.com/",
                     name: "Docs",
                 },
                 {
-                    href: "javascript:void()",
+                    href: "https://twitter.com/",
                     name: "Pricing",
                 },
             ],
@@ -47,19 +47,19 @@ export default () => {
             label: "About",
             items: [
                 {
-                    href: "javascript:void()",
+                    href: "https://twitter.com/",
                     name: "Terms",
                 },
                 {
-                    href: "javascript:void()",
+                    href: "https://twitter.com/",
                     name: "License",
                 },
                 {
-                    href: "javascript:void()",
+                    href: "https://twitter.com/",
                     name: "Privacy",
                 },
                 {
-                    href: "javascript:void()",
+                    href: "https://twitter.com/",
                     name: "About US",
                 },
             ],
@@ -72,7 +72,7 @@ export default () => {
                 <div className="flex-1">
                     <div className="max-w-xs">
                         <Image
-                        alt="Float UI Logo"
+                            alt="Float UI Logo"
                             width={100}
                             height={100}
                             src="https://www.floatui.com/logo.svg"
@@ -111,7 +111,7 @@ export default () => {
                 <div className="mt-6 sm:mt-0">
                     <ul className="flex items-center space-x-4">
                         <li className="flex h-10 w-10 items-center justify-center rounded-full border">
-                            <a href="javascript:void()">
+                            <a href="https://twitter.com/">
                                 <svg
                                     className="svg-icon h-6 w-6 text-blue-400"
                                     viewBox="0 0 20 20"
@@ -125,7 +125,7 @@ export default () => {
                         </li>
 
                         <li className="flex h-10 w-10 items-center justify-center rounded-full border">
-                            <a href="javascript:void()">
+                            <a href="https://twitter.com/">
                                 <svg
                                     className="svg-icon h-6 w-6 text-blue-700"
                                     viewBox="0 0 20 20"
@@ -139,7 +139,7 @@ export default () => {
                         </li>
 
                         <li className="flex h-10 w-10 items-center justify-center rounded-full border">
-                            <a href="javascript:void()">
+                            <a href="https://twitter.com/">
                                 <svg
                                     className="svg-icon h-6 w-6 text-blue-500"
                                     viewBox="0 0 20 20"
@@ -153,7 +153,7 @@ export default () => {
                         </li>
 
                         <li className="flex h-10 w-10 items-center justify-center rounded-full border">
-                            <a href="javascript:void()">
+                            <a href="https://twitter.com/">
                                 <svg
                                     className="svg-icon h-6 w-6 text-red-600"
                                     viewBox="0 0 20 20"
