@@ -6,14 +6,14 @@ import Hero from "@/Components/Hero/Hero";
 import Review from "@/Components/Review/Review";
 
 export default function Home() {
-    return (
-        <>
-            <Hero />
-            <Collection />
-            <BestSeller />
-            <Review />
-            {/* <Footer /> */}
-            <Faq />
-        </>
-    );
+  return (
+    <>
+      <Hero />
+      <Collection />
+      <BestSeller />
+      <Review />
+      {/* <Footer /> */}
+      <Faq />
+    </>
+  );
 }
