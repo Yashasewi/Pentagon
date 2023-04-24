@@ -9,7 +9,7 @@ import Review from "@/Components/Review/Review";
 export default function Home() {
     return (
         <>
-            <Navbarar />
+            <Navbar />
             <Hero />
             <Collection />
             <BestSeller />
