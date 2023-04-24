@@ -114,7 +114,7 @@ export default () => {
         {
             q: "What are some random questions to ask?",
             a: "That's exactly the reason we created this random question generator. There are hundreds of random questions to choose from so you're able to find the perfect random question.",
-            href: "https://twitter.com/",
+            href: "http ",
         },
         {
             q: "Do you include common questions?",
