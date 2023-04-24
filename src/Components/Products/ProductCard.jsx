@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-// import imageSrc from "/public/images/Hero.png";
 
 const ProductCard = ({
     title,
@@ -11,30 +10,14 @@ const ProductCard = ({
     isOversized,
     fabricType,
 }) => {
-    const imageSrc = "alt for img"
-    // console.log(
-    //     imageSrc +
-    //         " " +
-    //         title +
-    //         " " +
-    //         brand +
-    //         " " +
-    //         price +
-    //         " " +
-    //         discountedPrice +
-    //         " " +
-    //         fabricType +
-    //         " " +
-    //         rating +
-    //         " " +
-    //         isOversized
-    // );
     return (
         <div className="product-card">
             <div className="product-img-wrapper">
                 {/* <img src={imgSrc} alt={title} className="product-img" /> */}
                 <Image
-                    src={imageSrc}
+                    src={
+                        "https://tailwindui.com/img/ecommerce-images/product-page-02-featured-product-shot.jpg"
+                    }
                     alt={title}
                     loading="lazy"
                     width={300}
