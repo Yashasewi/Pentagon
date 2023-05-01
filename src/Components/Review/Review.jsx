@@ -65,7 +65,7 @@ export default function Example() {
           <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">
             Testimonials
           </h2>
-          <p className="mt-2 text-3xl font-sans tracking-tight text-gray-900 sm:text-4xl">
+          <p className="mt-2 font-sans text-3xl tracking-tight text-gray-900 sm:text-4xl">
             Happy Customers
           </p>
         </div>

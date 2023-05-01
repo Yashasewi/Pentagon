@@ -348,7 +348,7 @@ export default function Example() {
                 </dt>
                 <dd className="text-sm font-medium text-gray-900">₹5.00</dd>
               </div>
-             
+
               <div className="flex items-center justify-between border-t border-gray-200 pt-4">
                 <dt className="text-base font-medium text-gray-900">
                   Order total
@@ -358,14 +358,14 @@ export default function Example() {
             </dl>
 
             <div className="mt-6">
-             <Link href="/payment">
-             <button
-                type="submit"
-                className="w-full rounded-md border border-transparent bg-indigo-600 px-4 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50"
-              >
-                Checkout
-              </button>
-             </Link>
+              <Link href="/payment">
+                <button
+                  type="submit"
+                  className="w-full rounded-md border border-transparent bg-indigo-600 px-4 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50"
+                >
+                  Checkout
+                </button>
+              </Link>
             </div>
           </section>
         </form>
