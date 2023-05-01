@@ -82,7 +82,7 @@ export default function Example() {
           {collections.map((collection) => (
             <div
               key={collection.name}
-              className="group relative h-96 rounded-lg bg-white shadow-xl sm:aspect-h-5 sm:aspect-w-4 sm:h-auto"
+              className="sm:aspect-h-5 sm:aspect-w-4 group relative h-96 rounded-lg bg-white shadow-xl sm:h-auto"
             >
               <div>
                 <div
