@@ -1,4 +1,4 @@
- const products = [
+const products = [
   {
     id: 1,
     name: "Basic Tee 8-Pack",
@@ -154,7 +154,7 @@ export default function Example() {
                     key={product.id}
                     className="group relative flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white"
                   >
-                    <div className="aspect-h-4 aspect-w-3 bg-gray-200 sm:aspect-none group-hover:opacity-75 sm:h-96">
+                    <div className="aspect-h-4 aspect-w-3 sm:aspect-none bg-gray-200 group-hover:opacity-75 sm:h-96">
                       <img
                         src={product.imageSrc}
                         alt={product.imageAlt}

@@ -1,6 +1,6 @@
 /*
   This example requires some changes to your config:
-  
+
   ```
   // tailwind.config.js
   module.exports = {
@@ -30,7 +30,7 @@ export default function Example() {
         </div>
 
         <div className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8">
-          <div className="group aspect-h-1 aspect-w-2 overflow-hidden rounded-lg sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2">
+          <div className="aspect-h-1 aspect-w-2 sm:aspect-h-1 sm:aspect-w-1 group overflow-hidden rounded-lg sm:row-span-2">
             <a href="/Collections">
               <img
                 src="https://tailwindui.com/img/ecommerce-images/home-page-03-featured-category.jpg"
@@ -43,7 +43,7 @@ export default function Example() {
               aria-hidden="true"
               className="bg-gradient-to-b from-transparent to-black opacity-50"
             />
-            <div className="flex items-end p-6 mt-[-100px]">
+            <div className="mt-[-100px] flex items-end p-6">
               <div>
                 <h3 className="font-semibold text-white">
                   <a href="/Collections">
@@ -57,7 +57,7 @@ export default function Example() {
               </div>
             </div>
           </div>
-          <div className="group aspect-h-1 aspect-w-2 overflow-hidden rounded-lg sm:aspect-none sm:relative sm:h-full">
+          <div className="aspect-h-1 aspect-w-2 sm:aspect-none group overflow-hidden rounded-lg sm:relative sm:h-full">
             <img
               src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-01.jpg"
               alt="Wooden shelf with gray and olive drab green baseball caps, next to wooden clothes hanger with sweaters."
@@ -69,7 +69,7 @@ export default function Example() {
             />
             <div className="flex items-end p-6 sm:absolute sm:inset-0">
               <div>
-                <h3 className="font-semibold text-white mt-[-100px] md:mt-0 ">
+                <h3 className="mt-[-100px] font-semibold text-white md:mt-0 ">
                   <a href="/Collections">
                     <span className="absolute inset-0" />
                     Anime
@@ -81,7 +81,7 @@ export default function Example() {
               </div>
             </div>
           </div>
-          <div className="group aspect-h-1 aspect-w-2 overflow-hidden rounded-lg sm:aspect-none sm:relative sm:h-full">
+          <div className="aspect-h-1 aspect-w-2 sm:aspect-none group overflow-hidden rounded-lg sm:relative sm:h-full">
             <img
               src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-02.jpg"
               alt="Walnut desk organizer set with white modular trays, next to porcelain mug on wooden desk."
@@ -93,7 +93,7 @@ export default function Example() {
             />
             <div className="flex items-end p-6 sm:absolute sm:inset-0">
               <div>
-                <h3 className="font-semibold text-white mt-[-100px] md:mt-0">
+                <h3 className="mt-[-100px] font-semibold text-white md:mt-0">
                   <a href="/Collections">
                     <span className="absolute inset-0" />
                     Custom

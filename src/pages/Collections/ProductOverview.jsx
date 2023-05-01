@@ -271,7 +271,7 @@ export default function Example() {
   const [selectedSize, setSelectedSize] = useState(product.sizes[2]);
 
   return (
-    <div className="bg-white mt-28">
+    <div className="mt-28 bg-white">
       <main className="mx-auto mt-8 max-w-2xl px-4 pb-16 sm:px-6 sm:pb-24 lg:max-w-7xl lg:px-8">
         <div className="lg:grid lg:auto-rows-min lg:grid-cols-12 lg:gap-x-8">
           <div className="lg:col-span-5 lg:col-start-8">
@@ -374,7 +374,7 @@ export default function Example() {
                             checked
                               ? "border-transparent bg-indigo-600 text-white hover:bg-indigo-700"
                               : "border-gray-200 bg-white text-gray-900 hover:bg-gray-50",
-                            "flex items-center justify-center rounded-md border py-3 px-3 text-sm font-medium uppercase sm:flex-1"
+                            "flex items-center justify-center rounded-md border px-3 py-3 text-sm font-medium uppercase sm:flex-1"
                           )
                         }
                         disabled={!size.inStock}

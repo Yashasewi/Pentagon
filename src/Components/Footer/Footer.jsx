@@ -83,7 +83,7 @@ export default () => {
     ],
   };
   return (
-    <footer className="mx-auto mt-10 max-w-7xl overflow-hidden px-6 pb-20 sm:mt-30 sm:pb-24 lg:px-8 border-t-2 p-10">
+    <footer className="sm:mt-30 mx-auto mt-10 max-w-7xl overflow-hidden border-t-2 p-10 px-6 pb-20 sm:pb-24 lg:px-8">
       <nav
         className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
         aria-label="Footer"
