@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { auth, db } from "../../../firebase";
 export default () => {
   return (
     <main className="flex h-screen w-full flex-col items-center justify-center bg-gray-50 sm:px-4">
