@@ -4,7 +4,7 @@
   /* max-height: clamp(90rem, 70vh, 100rem); */
   color: var(--primary-text-color);
   align-items: center;
-
+  margin-top: 5rem;
   padding: 0.3rem 5rem;
 }
 

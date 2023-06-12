@@ -7,15 +7,15 @@ import { Navbar } from "@/Components/Navbar/Navbar";
 import Review from "@/Components/Review/Review";
 
 export default function Home() {
-    return (
-        <>
-            <Navbar />
-            <Hero />
-            <Collection />
-            <BestSeller />
-            <Review />
-            {/* <Footer /> */}
-            <Faq />
-        </>
-    );
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <Collection />
+      <BestSeller />
+      <Review />
+      {/* <Footer /> */}
+      <Faq />
+    </>
+  );
 }
