@@ -11,6 +11,7 @@
   "dependencies": {
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.17",
+    "firebase": "^9.22.2",
     "gsap": "^3.11.5",
     "heroicons": "^2.0.17",
     "next": "^13.3.1",
