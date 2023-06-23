@@ -41,9 +41,9 @@ const faqs = [
 
 export default function Example() {
   return (
-    <div className="bg-white">
-      <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8">
-        <div className="mx-auto max-w-2xl text-center">
+    <div className="font-sans bg-white">
+      <div className="px-6 py-16 mx-auto max-w-7xl sm:py-24 lg:px-8">
+        <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">
             Frequently asked questions
           </h2>
