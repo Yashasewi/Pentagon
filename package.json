@@ -11,14 +11,18 @@
   "dependencies": {
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.17",
+    "firebase": "^9.22.2",
     "gsap": "^3.11.5",
     "heroicons": "^2.0.17",
     "next": "^13.3.1",
+    "next-sanity": "^4.1.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "sanity": "^3.9.1",
     "sharp": "^0.32.0"
   },
   "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.1"
