@@ -17,7 +17,7 @@ export const Navbar = () => {
     window.scrollTo(0, 0);
   };
   return (
-    <header className="absolute inset-x-0 top-0 z-50">
+    <header className="absolute inset-x-0 top-0 z-50 font-sans">
       <nav
         className="flex items-center justify-between p-6 mx-auto max-w-7xl lg:px-8"
         aria-label="Global"

@@ -59,7 +59,7 @@ const testimonials = [
 
 export default function Example() {
   return (
-    <div className="py-24 bg-white sm:py-32">
+    <div className="py-24 font-sans bg-white sm:py-32">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="max-w-xl mx-auto text-center">
           <h2 className="text-2xl font-semibold leading-8 tracking-tight text-indigo-600">
