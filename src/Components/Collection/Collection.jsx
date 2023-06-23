@@ -7,7 +7,7 @@ export default function Example() {
             Shop by Category
           </h2>
           <a
-            href="/collection"
+            href="/Collections"
             className="hidden text-base font-semibold text-indigo-600 hover:text-indigo-500 sm:block"
           >
             Browse all categories
@@ -29,7 +29,7 @@ export default function Example() {
             <div className="flex items-end p-6">
               <div>
                 <h3 className="font-semibold text-white">
-                  <a href="/collection">
+                  <a href="/Collections">
                     <span className="absolute inset-0" />
                     New Arrivals
                   </a>
@@ -53,7 +53,7 @@ export default function Example() {
             <div className="flex items-end p-6 sm:absolute sm:inset-0">
               <div>
                 <h3 className="font-semibold text-white">
-                  <a href="/collection">
+                  <a href="/Collections">
                     <span className="absolute inset-0" />
                     Accessories
                   </a>
@@ -77,7 +77,7 @@ export default function Example() {
             <div className="flex items-end p-6 sm:absolute sm:inset-0">
               <div>
                 <h3 className="font-semibold text-white">
-                  <a href="/collection">
+                  <a href="/Collections">
                     <span className="absolute inset-0" />
                     Workspace
                   </a>
@@ -92,7 +92,7 @@ export default function Example() {
 
         <div className="mt-6 sm:hidden">
           <a
-            href="/collection"
+            href="/Collections"
             className="block text-sm font-semibold text-indigo-600 hover:text-indigo-500"
           >
             Browse all categories

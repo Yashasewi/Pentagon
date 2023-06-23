@@ -15,21 +15,21 @@
 const collections = [
   {
     name: "Women's",
-    href: "/collection",
+    href: "/Collections",
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/home-page-04-collection-01.jpg",
     imageAlt: "Woman wearing an off-white cotton t-shirt.",
   },
   {
     name: "Men's",
-    href: "/collection",
+    href: "/Collections",
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/home-page-04-collection-02.jpg",
     imageAlt: "Man wearing a charcoal gray cotton t-shirt.",
   },
   {
     name: "Desk Accessories",
-    href: "/collection",
+    href: "/Collections",
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/home-page-04-collection-03.jpg",
     imageAlt:
@@ -82,7 +82,7 @@ export default function Example() {
           </h1>
           <div className="mt-4 sm:mt-6">
             <a
-              href="/collection"
+              href="/Collections"
               className="inline-block px-8 py-3 font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700"
             >
               Shop Collection
