@@ -39,7 +39,7 @@ const collections = [
 
 export default function Example() {
   return (
-    <div className="relative bg-white">
+    <div className="relative font-sans bg-white">
       {/* Background image and overlap */}
       <div
         aria-hidden="true"
@@ -58,7 +58,7 @@ export default function Example() {
         <div className="w-full h-32 bg-white md:h-40 lg:h-48" />
       </div>
 
-      <div className="relative max-w-3xl px-4 mx-auto text-center pb-96 sm:px-6 sm:pb-0 lg:px-8">
+      <div className="relative max-w-3xl px-4 mx-auto font-sans text-center pb-96 sm:px-6 sm:pb-0 lg:px-8">
         {/* Background image and overlap */}
         <div
           aria-hidden="true"
