@@ -1,3 +1,4 @@
+import { redirect } from "next/dist/server/api-utils";
 import { auth, db } from "../../../firebase";
 import {
   GoogleAuthProvider,
@@ -15,6 +16,7 @@ function SignUpPage() {
         const token = credential.accessToken;
         const user = result.user;
         console.log(user);
+        window.location.href = "/";
       })
       .catch((error) => {
         const errorCode = error.code;
@@ -40,7 +42,7 @@ function SignUpPage() {
   };
 
   return (
-    <main className="flex h-screen w-full flex-col items-center justify-center bg-gray-50 sm:px-4">
+    <main className="flex flex-col items-center justify-center w-full h-screen bg-gray-50 sm:px-4">
       <div className="w-full space-y-6 text-gray-600 sm:max-w-md">
         <div className="text-center">
           <div className="mt-5 space-y-2">
@@ -58,14 +60,14 @@ function SignUpPage() {
             </p>
           </div>
         </div>
-        <div className="space-y-8 bg-white p-4 py-6 shadow sm:rounded-lg sm:p-6">
+        <div className="p-4 py-6 space-y-8 bg-white shadow sm:rounded-lg sm:p-6">
           <div className="grid ">
             <button
               onClick={signInWithGoogle}
               className="flex items-center justify-center rounded-lg border py-2.5 duration-150 hover:bg-gray-50 active:bg-gray-100"
             >
               <svg
-                className="h-5 w-5"
+                className="w-5 h-5"
                 viewBox="0 0 48 48"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +99,7 @@ function SignUpPage() {
             </button>
             {/* <button className="flex items-center justify-center rounded-lg border py-2.5 duration-150 hover:bg-gray-50 active:bg-gray-100">
               <svg
-                className="h-5 w-5"
+                className="w-5 h-5"
                 viewBox="0 0 48 48"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -110,7 +112,7 @@ function SignUpPage() {
             </button>
             <button className="flex items-center justify-center rounded-lg border py-2.5 duration-150 hover:bg-gray-50 active:bg-gray-100">
               <svg
-                className="h-5 w-5"
+                className="w-5 h-5"
                 viewBox="0 0 48 48"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -160,8 +162,8 @@ function SignUpPage() {
             </button> */}
           </div>
           <div className="relative">
-            <span className="block h-px w-full bg-gray-300"></span>
-            <p className="absolute inset-x-0 -top-2 mx-auto inline-block w-fit bg-white px-2 text-sm">
+            <span className="block w-full h-px bg-gray-300"></span>
+            <p className="absolute inset-x-0 inline-block px-2 mx-auto text-sm bg-white -top-2 w-fit">
               Or continue with
             </p>
           </div>
@@ -171,7 +173,7 @@ function SignUpPage() {
               <input
                 type="email"
                 required
-                className="mt-2 w-full rounded-lg border bg-transparent px-3 py-2 text-gray-500 shadow-sm outline-none focus:border-indigo-600"
+                className="w-full px-3 py-2 mt-2 text-gray-500 bg-transparent border rounded-lg shadow-sm outline-none focus:border-indigo-600"
               />
             </div>
             <div>
@@ -179,10 +181,10 @@ function SignUpPage() {
               <input
                 type="password"
                 required
-                className="mt-2 w-full rounded-lg border bg-transparent px-3 py-2 text-gray-500 shadow-sm outline-none focus:border-indigo-600"
+                className="w-full px-3 py-2 mt-2 text-gray-500 bg-transparent border rounded-lg shadow-sm outline-none focus:border-indigo-600"
               />
             </div>
-            <button className="w-full rounded-lg bg-indigo-600 px-4 py-2 font-medium text-white duration-150 hover:bg-indigo-500 active:bg-indigo-600">
+            <button className="w-full px-4 py-2 font-medium text-white duration-150 bg-indigo-600 rounded-lg hover:bg-indigo-500 active:bg-indigo-600">
               Sign in
             </button>
           </form>
