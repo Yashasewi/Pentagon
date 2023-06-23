@@ -1,6 +1,6 @@
 export default function Example() {
   return (
-    <div className="bg-gray-50">
+    <div className="font-sans bg-gray-50">
       <div className="px-4 py-16 mx-auto max-w-7xl sm:px-6 sm:py-24 lg:px-8">
         <div className="sm:flex sm:items-baseline sm:justify-between">
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">
