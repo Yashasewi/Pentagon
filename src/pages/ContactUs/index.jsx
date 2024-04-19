@@ -92,7 +92,7 @@ export default function Example() {
                     className="hover:text-gray-900"
                     href="mailto:yashasewisingh2668@gmail.com"
                   >
-                    yashasewisingh2668@gmail.com
+                    contact_on_phone@gmail.com
                   </a>
                 </dd>
               </div>
